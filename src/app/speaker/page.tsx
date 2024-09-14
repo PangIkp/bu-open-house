@@ -8,8 +8,7 @@ export default function speaker() {
     <Navbar />
     <main className="flex-grow">
       
-      <div className="container mx-auto px-4 py-8">
-      
+    <div className="container mx-auto px-4 py-8 pt-40">      
         <h1 className="text-2xl text-white font-bold">Welcome to the speaker page</h1>
       </div>
     </main>

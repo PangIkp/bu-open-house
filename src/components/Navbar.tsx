@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
-import logoSrc from "../Images/logo.png"
+import logoSrc from "../Images/logo.png";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,20 +12,10 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-black p-4">
+    <nav className="bg-black p-4 fixed w-full">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Image
-              className=""
-              src={logoSrc}
-              alt="logo"
-              width={120}
-            />
-
-        <Link href="/registration" className="bg-gradient-to-r from-[#666699] to-white hover:from-[#BEBEBE] hover:to-[#666699] h-[35px] w-[100px] rounded-[20px] flex items-center justify-center">
-            <p className="text-black hover:text-white font-medium">Sign up</p>
-        </Link>
-
+        <Image className="" src={logoSrc} alt="logo" width={120} />
 
         {/* Hamburger Icon */}
         <div className="md:hidden">
@@ -52,7 +42,7 @@ const Navbar: React.FC = () => {
 
         {/* Menu Links - Hidden on small screens */}
         <ul
-          className={`md:flex md:space-x-8 md:items-center absolute md:static top-16 left-0 w-full md:w-auto bg-black md:bg-transparent ${
+          className={`md:flex md:space-x-[60px] md:items-center absolute md:static top-16 left-0 w-full md:w-auto bg-black md:bg-transparent ${
             isOpen ? "block" : "hidden"
           }`}
         >
@@ -79,18 +69,27 @@ const Navbar: React.FC = () => {
           </li>
           <li className="border-b border-gray-700 md:border-none">
             <Link
-              href="/gallery"
-              className="block text-white p-4 hover:text-gray-400"
-            >
-              Gallery
-            </Link>
-          </li>
-          <li className="border-b border-gray-700 md:border-none">
-            <Link
               href="/workshop"
               className="block text-white p-4 hover:text-gray-400"
             >
               Workshop
+            </Link>
+          </li>
+
+          <li className="border-b border-gray-700 md:border-none">
+            <Link
+              href="/schedule"
+              className="block text-white p-4 hover:text-gray-400"
+            >
+              Schedule
+            </Link>
+          </li>
+          <li className="border-b border-gray-700 p-4 md:border-none">
+            <Link
+              href="/registration"
+              className="bg-gradient-to-r from-[#666699] to-white hover:from-[#BEBEBE] hover:to-[#666699] h-[35px] w-[100px] rounded-[20px] flex items-center justify-center"
+            >
+              <p className="text-black hover:text-white font-medium">Register</p>
             </Link>
           </li>
         </ul>
