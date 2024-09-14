@@ -29,5 +29,21 @@ html {
   font-family: var(--font-poppins);
 }
 
+p{
+  font-size: 12px;
+}
+
+h1{
+  font-size: 16px; 
+  color: white;
+  font-weight: 600;
+}
+
+/* สีม่วงอมเทา [#666699]  */
+/* สีเทา [#BEBEBE] */
+/* white */
+
+/* ข้อความทั่วไปใช้ ขนาด 12 */
+
 
 

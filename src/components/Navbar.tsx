@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
               href="/registration"
               className="bg-gradient-to-r from-[#666699] to-white hover:from-[#BEBEBE] hover:to-[#666699] h-[35px] w-[100px] rounded-[20px] flex items-center justify-center"
             >
-              <p className="text-black hover:text-white font-medium">Register</p>
+              <h1 className="text-black hover:text-white font-medium">Register</h1>
             </Link>
           </li>
         </ul>

@@ -11,7 +11,7 @@ export default function Home() {
         
         <div className="container mx-auto px-4 py-8 pt-40">
         
-          <h1 className="text-2xl text-white font-bold">Welcome to the Home Page</h1>
+          <h1 >Welcome to the Home Page</h1>
         
         </div>
       </main>
