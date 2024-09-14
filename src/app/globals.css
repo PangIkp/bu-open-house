@@ -16,8 +16,7 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background-image: url("../Images/background.jpg");
 }
 
 @layer utilities {
