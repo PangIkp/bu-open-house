@@ -11,7 +11,7 @@ export default function Home() {
         
         <div className="container mx-auto px-4 py-8 pt-40">
         
-          <h1 >Welcome to the Home Page</h1>
+          <h1>การแต่งกาย</h1>
         
         </div>
       </main>
