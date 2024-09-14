@@ -6,14 +6,13 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
+      <Navbar/>
       <main className="flex-grow">
-        
-        <div className="container mx-auto px-4 py-8 pt-40">       
+        <div className="container mx-auto px-4 py-8 pt-40">
+          <h1 className="text-white">สวัสดี</h1>
         </div>
       </main>
-      <Footer />
+      <Footer/>
     </div>
   );
 }
-
