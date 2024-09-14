@@ -10,8 +10,9 @@ export default function Home() {
       <main className="flex-grow">
         
         <div className="container mx-auto px-4 py-8 pt-40">
+        <h1 className="">สวัสดี</h1>
         
-        
+        {/* <h1 className="font-[family-name:var(--font-poppins)]">home</h1> */}
         </div>
       </main>
       <Footer />
