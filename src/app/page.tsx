@@ -9,10 +9,7 @@ export default function Home() {
       <Navbar />
       <main className="flex-grow">
         
-        <div className="container mx-auto px-4 py-8 pt-40">
-        
-          <h1 >Welcome to the Home Page</h1>
-        
+        <div className="container mx-auto px-4 py-8 pt-40">       
         </div>
       </main>
       <Footer />
