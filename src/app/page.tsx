@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 // test pull
+// comment
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
