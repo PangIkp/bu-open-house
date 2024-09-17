@@ -35,7 +35,6 @@ export default function sponsor() {
           <Image className="transition-tr transform duration-300 hover:scale-110" src="https://www.pngkey.com/png/full/881-8818836_shop-now-vans-logo-white-png.png" alt="ptt" width={200} height={20}/>
           <Image className="rounded-[10px] transition-tr transform duration-300 hover:scale-110" src="https://pngimg.com/d/gopro_logo_PNG12.png" alt="ptt" width={200} height={50}/>
           <Image className="rounded-[10px] transition-tr transform duration-300 hover:scale-110" src="https://www.depa.or.th/storage/app/media/Image%20File/depa%20Logo%20web-011.png" alt="ptt" width={200} height={50}/>
-
         </div>
 
 
