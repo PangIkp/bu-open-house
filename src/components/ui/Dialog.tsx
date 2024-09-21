@@ -37,7 +37,7 @@ const Dialog: React.FC<DialogProps> = ({ isOpen, onClose, title, content }) => {
         <div className='fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center '>
             <div
                 ref={dialogRef}
-                className='grid bg-white p-10 rounded-3xl shadow-lg relative w-[40rem] h-[20rem] gap-1'
+                className='grid bg-white p-10 rounded-3xl shadow-lg relative w-11/12 h-auto md:w-[40rem] md:h-[20rem] gap-1'
             >
                 <img
                     width='25'

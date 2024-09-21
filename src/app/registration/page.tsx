@@ -12,13 +12,6 @@ export default function Registration() {
         phone: '',
     });
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value,
-        });
-    };
-
     const handleSubmit = (formData: FormData) => {
         const name = formData.get('name');
         const email = formData.get('email');
@@ -34,10 +27,7 @@ export default function Registration() {
                     <h1 className='text-3xl font-bold text-center mb-8'>
                         Register
                     </h1>
-                    <form
-                        className='max-w-lg mx-auto p-8 rounded-lg shadow-lg space-y-6'
-                        style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
-                    >
+                    <form className='max-w-lg mx-auto p-8 rounded-lg shadow-lg space-y-6 bg-black/50'>
                         <div>
                             <label
                                 htmlFor='name'
@@ -48,9 +38,8 @@ export default function Registration() {
                             <Input
                                 name='name'
                                 type='text'
-                                value={formData.name}
-                                onChange={handleChange}
                                 placeholder='John Doe'
+                                required
                             />
                         </div>
 
@@ -64,9 +53,8 @@ export default function Registration() {
                             <Input
                                 name='email'
                                 type='email'
-                                value={formData.email}
-                                onChange={handleChange}
-                                placeholder='example@mail.com'
+                                placeholder='mail@example.com'
+                                required
                             />
                         </div>
 
@@ -80,9 +68,8 @@ export default function Registration() {
                             <Input
                                 name='phone'
                                 type='tel'
-                                value={formData.phone}
-                                onChange={handleChange}
                                 placeholder='0xx-xxx-xxxx'
+                                required
                             />
                         </div>
 

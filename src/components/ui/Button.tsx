@@ -23,7 +23,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
                 variantStyles = `${baseStyles} focus-visible:ring-none`;
                 break;
             case 'plain':
-                variantStyles = `${color} text-white text-wrap h-20 w-full transition duration-300 ease-in-out hover:scale-110 hover:rotate-2`; // Use the custom color
+                variantStyles = `${color} text-white text-wrap h-20 w-full transition duration-1000 ease-in-out hover:scale-110 hover:rotate-2`; // Use the custom color
                 break;
         }
 
