@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: ['companieslogo.com' ,'www.coca-cola.com','muzikmoverecords.com', 'companieslogo.com','encrypted-tbn0.gstatic.com', 'img.wongnai.com', 'images.seeklogo.com', 'upload.wikimedia.org', 'www.totalbeveragesolution.com', 'store-speedtree-com.exactdn.com', 'www.pngkey.com', 'pngimg.com', 'www.depa.or.th'], // เพิ่มโดเมนของภาพภายนอกที่ต้องการ
+      domains: ['companieslogo.com' ,'www.coca-cola.com','muzikmoverecords.com', 'companieslogo.com','encrypted-tbn0.gstatic.com', 'img.wongnai.com', 'images.seeklogo.com', 'upload.wikimedia.org', 'www.totalbeveragesolution.com', 'store-speedtree-com.exactdn.com', 'www.pngkey.com', 'pngimg.com', 'www.depa.or.th', 'contents.bu.ac.th'], // เพิ่มโดเมนของภาพภายนอกที่ต้องการ
     },
   };
   

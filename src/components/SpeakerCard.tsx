@@ -15,7 +15,7 @@ export default function SpeakerCard({ src, alt, name, profile, locate, time}:{ s
     <p className="text-white text-[20px] flex justify-center mt-3">{name}</p>
   
     {/* Popup ที่จะเด้งขึ้นมาเมื่อ hover */}
-    <div className="absolute top-0 left-0 h-5/6 h-full bg-black bg-opacity-70 flex flex-col justify-center p-5 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-t-[20px]">
+    <div className="absolute top-0 left-0 h-full bg-black bg-opacity-70 flex flex-col justify-center p-5 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-[20px]">
       <p className="text-white text-[16px] font-light mb-10">{profile}</p>
       <p className="text-white text-[16px] font-light">
         <span className="font-medium">เวลา : </span>{time}
