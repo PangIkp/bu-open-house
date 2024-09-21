@@ -86,7 +86,9 @@ export default function Registration() {
                             />
                         </div>
 
-                        <Button formAction={handleSubmit}>Register</Button>
+                        <Button formAction={handleSubmit} size='xl'>
+                            Register
+                        </Button>
                     </form>
                 </div>
             </main>
