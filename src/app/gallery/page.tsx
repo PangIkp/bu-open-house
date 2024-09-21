@@ -26,9 +26,9 @@ export default function Gallery() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div>
       <Navbar />
-      <div className="flex-grow">
+      <div>
         <div className="container mx-auto px-4 py-8 pt-40">
           <h1 className="text-4xl text-white font-semibold">{displayedText}</h1> {/* แสดงข้อความ */}
           <p className="text-white mt-5 mb-5 text-[14px]">มหาวิทยาลัยกรุงเทพ จัดงาน BU OPEN HOUSE 2024 ลองเล่นให้เป็นโปร กับ 14 คณะ 52 สาขา 120 กิจกรรม 55 เวิร์กชอป 39 กิจกรรมล่าใบ e-Certificate 10 สัมมนา 10 โชว์เคส และ 6 กิจกรรมกลางที่มีสาระ และความบันเทิง พร้อมเปิดโอกาสให้นักเรียนชั้นมัธยมศึกษาตอนปลายได้ลองคิดจริง ลองจับอุปกรณ์จริง ลองลงมือทําจริง ได้ความรู้จากอาจารย์ตัวจริง </p>
