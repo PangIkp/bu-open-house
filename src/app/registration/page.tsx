@@ -47,6 +47,7 @@ export default function Registration() {
                             </label>
                             <Input
                                 name='name'
+                                type='text'
                                 value={formData.name}
                                 onChange={handleChange}
                                 placeholder='John Doe'
@@ -62,6 +63,7 @@ export default function Registration() {
                             </label>
                             <Input
                                 name='email'
+                                type='email'
                                 value={formData.email}
                                 onChange={handleChange}
                                 placeholder='example@mail.com'
@@ -77,6 +79,7 @@ export default function Registration() {
                             </label>
                             <Input
                                 name='phone'
+                                type='tel'
                                 value={formData.phone}
                                 onChange={handleChange}
                                 placeholder='0xx-xxx-xxxx'
