@@ -386,7 +386,7 @@ export default function workshop() {
         {/* ปุ่มกรองคณะ */}
         <div className="flex flex-wrap px-20 gap-4 mb-10">
           <button
-            className="bg-gray-800 border border-gray-200 hover:bg-gray-200 h-[35px] w-auto rounded-[20px] flex items-center justify-center p-4"
+            className="bg-gray-800 border border-gray-200 hover:bg-gray-200 hover:text-black h-[35px] w-auto rounded-[20px] flex items-center justify-center p-4"
             onClick={() => setFilterFac(null)} // หรือใช้ค่าอื่นที่บ่งบอกว่าแสดงทั้งหมด
           >
             <h1 className="text-white hover:text-black text-[13px] font-light">
