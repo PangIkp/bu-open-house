@@ -37,41 +37,68 @@ export default function About() {
                             </h1>
                         </div>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-2 text-black place-content-center gap-10 text-center'>
-                        <div className='grid w-full place-content-center gap-4'>
-                            <p className='text-xl md:text-[2rem] font-medium'>
-                                ลองคิดแหวกกรอบ
-                                <br /> (CREATIVE CLUSTER)
-                            </p>
-                            <Button variant={'plain'} color='bg-red-500'>
-                                ดูรายละเอียดเพิ่มเติม
-                            </Button>
-                        </div>
-                        <div className='grid place-content-center gap-4'>
-                            <p className='text-xl md:text-[2rem] font-medium'>
-                                ลองบริหารความรวย
-                                <br /> (BUSINESS CLUSTER){' '}
-                            </p>
-                            <Button variant={'plain'} color='bg-blue-500'>
-                                ดูรายละเอียดเพิ่มเติม
-                            </Button>
-                        </div>
-                        <div className='grid place-content-center gap-4'>
-                            <p className='text-xl md:text-[2rem] font-medium'>
-                                ลองสร้างสิ่งล้ำ
-                                <br /> (INNOVATIVE CLUSTER){' '}
-                            </p>
-                            <Button variant={'plain'} color='bg-green-500'>
-                                ดูรายละเอียดเพิ่มเติม
-                            </Button>
-                        </div>
-                        <div className='grid place-content-center gap-4'>
-                            <p className='text-xl md:text-[2rem] font-medium'>
-                                ลองโกอินเตอร์ <br />
-                                (BU INTERNATIONAL){' '}
-                            </p>
+                    <hr className='border-[2px]' />
+                    <div className='flex w-full my-20 items-center justify-center'>
+                        <h1 className='text-[3rem] font-bold text-center text-black'>
+                            จะไปยังไงอ่าาา?
+                        </h1>
+                    </div>
+                    <div className='grid md:flex text-black place-content-center gap-10 text-center mb-10 md:mb-20 '>
+                        <div className='flex w-full items-center justify-center gap-4'>
+                            <img
+                                width='50'
+                                height='50'
+                                src='https://img.icons8.com/ios-filled/50/737373/bus.png'
+                                alt='bus'
+                            />
                             <Button variant={'plain'} color='bg-pink-500'>
-                                ดูรายละเอียดเพิ่มเติม
+                                รถเมล์ สาย 39 ปอ.510 / ปอ.520
+                            </Button>
+                        </div>
+                        <div className='flex w-full items-center justify-center gap-4'>
+                            <img
+                                width='50'
+                                height='50'
+                                src='https://img.icons8.com/ios-filled/50/737373/van.png'
+                                alt='van'
+                            />
+                            <Button variant={'plain'} color='bg-yellow-500'>
+                                รถตู้ สาย ต.85-93 (ฝั่งเกาะพญาไท){' '}
+                            </Button>
+                        </div>
+                    </div>
+                    <div className='grid md:flex text-black place-content-center gap-10 text-center'>
+                        <div className='flex w-full items-center justify-center gap-4'>
+                            <img
+                                width='50'
+                                height='50'
+                                src='https://img.icons8.com/ios-filled/50/737373/train.png'
+                                alt='train'
+                            />
+                            <Button variant={'plain'} color='bg-green-500'>
+                                รถไฟฟ้าสายสีเขียว (BTS)
+                            </Button>
+                        </div>
+                        <div className='flex w-full items-center justify-center gap-4'>
+                            <img
+                                width='50'
+                                height='50'
+                                src='https://img.icons8.com/ios-filled/50/737373/train.png'
+                                alt='train'
+                            />
+                            <Button variant={'plain'} color='bg-blue-500'>
+                                รถไฟฟ้าสายสีน้ำเงิน (MRT){' '}
+                            </Button>
+                        </div>
+                        <div className='flex w-full items-center justify-center gap-4'>
+                            <img
+                                width='50'
+                                height='50'
+                                src='https://img.icons8.com/ios-filled/50/737373/train.png'
+                                alt='train'
+                            />
+                            <Button variant={'plain'} color='bg-red-500'>
+                                รถไฟฟ้าสายสีแดง (SRT) :
                             </Button>
                         </div>
                     </div>
