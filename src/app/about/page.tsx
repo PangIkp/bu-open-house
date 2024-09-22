@@ -37,34 +37,38 @@ export default function About() {
                             </h1>
                         </div>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-2 text-black place-content-center gap-10'>
-                        <div className='grid place-content-center'>
-                            <p className='text-[2rem] font-medium'>
-                                ลองคิดแหวกกรอบ (CREATIVE CLUSTER)
+                    <div className='grid grid-cols-1 md:grid-cols-2 text-black place-content-center gap-10 text-center'>
+                        <div className='grid w-full place-content-center gap-4'>
+                            <p className='text-xl md:text-[2rem] font-medium'>
+                                ลองคิดแหวกกรอบ
+                                <br /> (CREATIVE CLUSTER)
                             </p>
                             <Button variant={'plain'} color='bg-red-500'>
                                 ดูรายละเอียดเพิ่มเติม
                             </Button>
                         </div>
-                        <div className='grid place-content-center'>
-                            <p className='text-[2rem] font-medium'>
-                                ลองบริหารความรวย (BUSINESS CLUSTER){' '}
+                        <div className='grid place-content-center gap-4'>
+                            <p className='text-xl md:text-[2rem] font-medium'>
+                                ลองบริหารความรวย
+                                <br /> (BUSINESS CLUSTER){' '}
                             </p>
                             <Button variant={'plain'} color='bg-blue-500'>
                                 ดูรายละเอียดเพิ่มเติม
                             </Button>
                         </div>
-                        <div className='grid place-content-center'>
-                            <p className='text-[2rem] font-medium'>
-                                ลองสร้างสิ่งล้ำ (INNOVATIVE CLUSTER){' '}
+                        <div className='grid place-content-center gap-4'>
+                            <p className='text-xl md:text-[2rem] font-medium'>
+                                ลองสร้างสิ่งล้ำ
+                                <br /> (INNOVATIVE CLUSTER){' '}
                             </p>
                             <Button variant={'plain'} color='bg-green-500'>
                                 ดูรายละเอียดเพิ่มเติม
                             </Button>
                         </div>
-                        <div className='grid place-content-center'>
-                            <p className='text-[2rem] font-medium'>
-                                ลองโกอินเตอร์ (BU INTERNATIONAL){' '}
+                        <div className='grid place-content-center gap-4'>
+                            <p className='text-xl md:text-[2rem] font-medium'>
+                                ลองโกอินเตอร์ <br />
+                                (BU INTERNATIONAL){' '}
                             </p>
                             <Button variant={'plain'} color='bg-pink-500'>
                                 ดูรายละเอียดเพิ่มเติม
