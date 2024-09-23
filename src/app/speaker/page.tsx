@@ -19,7 +19,7 @@ import pluster from "../../Images/plus.webp";
 
 
 
-export default function speaker() {
+export default function Speaker() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* กำหนด position fixed และ z-index ให้กับ Navbar */}

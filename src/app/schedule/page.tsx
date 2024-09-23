@@ -7,7 +7,7 @@ import Image from "next/image";
 import schedule1 from "../../Images/schedule1.jpg";
 import schedule3 from "../../Images/schedule3.jpg";
 
-export default function schedule() {
+export default function Schedule() {
   const [displayedText, setDisplayedText] = useState(""); // State สำหรับข้อความที่จะแสดง
   const fullText = "กำหนดการ BU Open house 2024"; // ข้อความเต็ม
 

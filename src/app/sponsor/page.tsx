@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import React from "react";
 import Image from "next/image";
 
-export default function sponsor() {
+export default function Sponsor() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />

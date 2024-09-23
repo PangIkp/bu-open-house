@@ -5,7 +5,7 @@ import WorkshopCard from "@/components/WorkshopCard";
 import Footer from "@/components/Footer";
 import thammachad from "../../Images/thammachad.jpg";
 
-export default function workshop() {
+export default function Workshop() {
   const [displayedText, setDisplayedText] = useState(""); // State สำหรับข้อความที่จะแสดง
   const fullText = "WORKSHOP BU OPEN HOUSE 2024"; // ข้อความเต็ม
 
