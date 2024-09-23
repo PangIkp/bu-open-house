@@ -74,7 +74,7 @@ export default function Registration() {
                         </div>
 
                         <Button formAction={handleSubmit} size='xl'>
-                            Register
+                           <p className='text-black text-[18px] hover:text-white'> Register </p>
                         </Button>
                     </form>
                 </div>
