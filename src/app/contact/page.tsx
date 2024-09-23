@@ -7,7 +7,7 @@ import { Textarea } from '@/components/ui/Textarea';
 import Image from 'next/image';
 import { useState } from 'react';
 
-export default function contact() {
+export default function Contact() {
     const handleSubmit = (formData: FormData) => {
         const name = formData.get('name');
         const email = formData.get('email');
