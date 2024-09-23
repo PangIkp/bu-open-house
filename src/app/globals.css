@@ -16,8 +16,7 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background-image: url("../Images/background.jpg");
 }
 
 @layer utilities {
@@ -27,5 +26,28 @@ body {
 }
 
 html {
-  font-family: var(--font-poppins);
+  font-family: var(--font-kanit);
 }
+
+p{
+  font-size: 12px;
+}
+
+h1{
+  font-size: 18px; 
+  color: white;
+  font-weight: 500;
+}
+
+
+
+
+
+/* สีม่วงอมเทา [#666699]  */
+/* สีเทา [#BEBEBE] */
+/* white */
+
+/* ข้อความทั่วไปใช้ ขนาด 12 */
+
+
+
