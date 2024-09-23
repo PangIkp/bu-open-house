@@ -1,3 +1,4 @@
+// 1640706956 Ruethaimata Kwangate
 import banner_2 from '@/Images/banner_2.jpg';
 import banner_3 from '@/Images/banner_3.jpg';
 export const images = [

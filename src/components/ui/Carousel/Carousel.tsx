@@ -1,3 +1,4 @@
+// 1640706956 Ruethaimata Kwangate
 'use client';
 import Image from 'next/image';
 import banner_2 from '@/Images/banner_2.jpg';

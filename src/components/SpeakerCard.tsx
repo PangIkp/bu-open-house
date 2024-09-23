@@ -1,3 +1,4 @@
+// 1640705727 Itsara Klongklaew
 import Image from "next/image";
 
 export default function SpeakerCard({ src, alt, name, profile, locate, time}:{ src:any, alt:string, name:string, profile:string, locate:string, time:string}) {

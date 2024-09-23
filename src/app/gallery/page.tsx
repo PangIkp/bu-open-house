@@ -1,3 +1,4 @@
+// 1640705727 Itsara Klongklaew
 "use client"; // บอก Next.js ว่านี่คือ Client-side Component
 import { useState, useEffect } from "react";
 import Footer from "@/components/Footer";

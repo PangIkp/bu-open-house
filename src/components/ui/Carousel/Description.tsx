@@ -1,3 +1,4 @@
+// 1640706956 Ruethaimata Kwangate
 import React from 'react';
 import { images } from './constant';
 import left from '@/Images/left.svg';

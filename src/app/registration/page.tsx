@@ -1,3 +1,4 @@
+// 1640706956 Ruethaimata Kwangate
 'use client';
 import Footer from '@/components/Footer';
 import { Input } from '@/components/ui/Input';
